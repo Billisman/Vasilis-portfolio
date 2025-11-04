@@ -4,7 +4,7 @@ body{
     background-color: black;
 }
 
-.icons{
+.icons-container{
     position: fixed;
     max-width: fit-content;
     margin-left: auto;
@@ -52,7 +52,7 @@ a:hover .fa-brands.fa-linkedin-in{
     margin: auto;
 }
 
-#intro-titles{
+#intro-titles-container{
     font-size: 20px;
     width: 700px;
     height: 120px;
@@ -72,9 +72,8 @@ a:hover .fa-brands.fa-linkedin-in{
 
 
 #higher-education{
-    width: 400px;
-    height: 150px;
-    padding: 10px;
+    width: 30%;
+    padding: 30px;
     background: rgba(158, 156, 156, 0.582);
     border-radius: 20px;
     color: aqua;
@@ -83,21 +82,37 @@ a:hover .fa-brands.fa-linkedin-in{
     flex-wrap: wrap;
 }
 
-.work-exp{
-    width: 400px;
-    height: 150px;
-    padding: 10px;
+.education-container{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+}
+
+.work-exp-container{
+    color: aqua;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 3px 5px 10px white;
+}
+
+.experience-details{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+}
+
+.experience{
+    width: 30%;
+    padding: 20px;
     background: rgba(158, 156, 156, 0.582);
     border-radius: 20px;
     color: aqua;
     text-align: center;
     margin: 20px;
-}
-
-.education-container{
-    flex-direction: row;
-    display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -111,6 +126,8 @@ a:hover .fa-brands.fa-linkedin-in{
 .exp{
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
 }
 
 .html{
