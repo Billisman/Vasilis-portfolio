@@ -41,6 +41,8 @@ a:hover .fa-brands.fa-linkedin-in{
     text-align: center;
     position: relative;
     text-shadow: 3px 5px 10px white;
+    margin-top: 2rem;
+    
 }
 
 .image img{
@@ -54,13 +56,12 @@ a:hover .fa-brands.fa-linkedin-in{
 
 #intro-titles-container{
     font-size: 20px;
-    width: 700px;
-    height: 120px;
     padding: 10px;
     border-radius: 20px;
     color: aqua;
     text-align: center;
-    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
 }
 
 #education{
@@ -87,7 +88,7 @@ a:hover .fa-brands.fa-linkedin-in{
     display: flex;
     justify-content: center;
     margin-top: 2rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
 .work-exp-container{
@@ -101,7 +102,7 @@ a:hover .fa-brands.fa-linkedin-in{
     display: flex;
     justify-content: center;
     margin-top: 2rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
 .experience{
