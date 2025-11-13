@@ -116,6 +116,28 @@ a:hover .fa-brands.fa-linkedin-in{
     flex-wrap: wrap;
 }
 
+.projects-container{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    font-size: 30px;
+    color: aqua;
+    text-align: center;
+    text-shadow: 3px 5px 10px white;
+}
+
+.tekton-project{
+    background-color: bisque;
+    border: 1rem;
+    margin: 1rem;
+}
+
+.gamemaker-project{
+    background-color: aqua;
+    margin: 1rem;
+}
 
 .technical-experience{
     font-size: 30px;
