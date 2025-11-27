@@ -119,6 +119,7 @@ a:hover .fa-brands.fa-linkedin-in{
 .projects-container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .header{
@@ -129,14 +130,52 @@ a:hover .fa-brands.fa-linkedin-in{
 }
 
 .tekton-project{
-    background-color: bisque;
+    background-color: rgba(0, 0, 0, 0.781);
     border: 1rem;
     margin: 1rem;
 }
 
+.project-icons{
+   display: flex;
+   justify-content: space-between;
+   margin-left: 20%;
+   margin-right: 20%;
+   color: aqua;
+}
+
+
+.project-icons-gamemaker{
+   display: flex;
+   justify-content: space-between;
+   margin-left: 15%;
+   margin-right: 15%;
+   color: aqua;
+}
+
+.clickable-card-reader{
+    background-color: rgb(124, 124, 124);
+    color: aqua;
+}
+
+
 .gamemaker-project{
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
+    border: 1rem;
     margin: 1rem;
+}
+
+.breakout-project{
+    background-color: rgb(0, 0, 0);
+    border: 1rem;
+    margin: 1rem;
+}
+
+.project-icons-breakout{
+    display: flex;
+   justify-content: space-between;
+   margin-left: 10%;
+   margin-right: 10%;
+   color: aqua;
 }
 
 .technical-experience{
