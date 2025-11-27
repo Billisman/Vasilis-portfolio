@@ -153,8 +153,11 @@ a:hover .fa-brands.fa-linkedin-in{
 }
 
 .clickable-card-reader{
-    background-color: rgb(124, 124, 124);
+    background-color: rgb(0, 0, 0);
     color: aqua;
+    font-size: 25px;
+    width: 500px;
+    height: 200px;
 }
 
 
