@@ -23,6 +23,8 @@ body{
 
 a:hover .fa-brands.fa-github{
     color: rgba(0, 255, 255, 0.705);
+    transform: translateY(-10px);
+    transition: 0.3s ease;
 }
 
 .fa-brands.fa-linkedin-in{
@@ -31,6 +33,8 @@ a:hover .fa-brands.fa-github{
 
 a:hover .fa-brands.fa-linkedin-in{
     color: rgba(0, 255, 255, 0.705);
+    transform: translateY(-10px);
+    transition: 0.3s ease;
 }
 
 
@@ -123,6 +127,24 @@ a:hover .fa-brands.fa-linkedin-in{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.tekton-btn:hover{
+    display: block;
+    transform: translateY(-20px);
+    transition: transform 0.3s ease;
+}
+
+.gamemaker-btn:hover{
+    display: block;
+    transform: translateY(-20px);
+    transition: transform 0.3s ease;
+}
+
+.breakout-btn:hover{
+    display: block;
+    transform: translateY(-20px);
+    transition: transform 0.3s ease;
 }
 
 .header{
