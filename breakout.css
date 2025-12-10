@@ -5,10 +5,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 
 .breakout-project-container{
     font-size: x-large;
+    color: aqua;
 }
 
 .video-container{
@@ -18,7 +20,7 @@
 .overlay{
     position: absolute;
     bottom: 50px;
-    background-color: rgba(0, 0, 0, 0.199);
+    background-color: rgb(146, 146, 146);
     color: aqua;
     font-size: large;
     display: block;
@@ -29,20 +31,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: aqua;
 }
 
 .about-container p{
-    border: 0.2rem outset black;
-    background-color: rgba(0, 0, 0, 0.212);
+    background-color: rgba(160, 160, 160, 0.808);
     height: 150px;
     width: 500px;
     font-size: large;
     text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .project-info-container h1{
     display: flex;
     justify-content: center;
+    color: aqua;
 }
 
 .project-show{
@@ -50,4 +59,18 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+}
+
+.project-info-container ul{
+    background-color: rgba(160, 160, 160, 0.808);
+    height: 150px;
+    width: 500px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
