@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gideon+Roman&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+body{
+    background-color: black;
+}
+
 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
 }
 
 .breakout-project-container{
@@ -20,7 +23,7 @@
 .overlay{
     position: absolute;
     bottom: 50px;
-    background-color: rgb(146, 146, 146);
+    background-color: rgba(146, 146, 146, 0.575);
     color: aqua;
     font-size: large;
     display: block;
@@ -36,7 +39,7 @@
 
 .about-container p{
     background-color: rgba(160, 160, 160, 0.808);
-    height: 150px;
+    height: 250px;
     width: 500px;
     font-size: large;
     text-align: center;
@@ -63,7 +66,7 @@
 
 .project-info-container ul{
     background-color: rgba(160, 160, 160, 0.808);
-    height: 150px;
+    height: 250px;
     width: 500px;
     font-size: large;
     display: flex;
@@ -73,4 +76,5 @@
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    justify-content: space-evenly;
 }
