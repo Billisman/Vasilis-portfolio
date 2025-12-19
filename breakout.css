@@ -78,3 +78,21 @@ body{
     padding-bottom: 10px;
     justify-content: space-evenly;
 }
+
+.back-btn{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    font-size: xx-large;
+    background-color: black;
+    box-shadow: 3px 5px 10px white;
+    border-radius: 13px;
+    color: aqua;
+    cursor: pointer;
+}
+
+.back-btn:hover{
+    display: block;
+    transform: translateY(-10px);
+    transition: 0.3s ease;
+}
