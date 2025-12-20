@@ -14,7 +14,7 @@ body{
     top: 0;
     right: 0;
     padding: 60px;
-    font-size: 50px;
+    font-size: clamp(1.8rem, 5vw, 3rem);
 }
 
 .fa-brands.fa-github{
@@ -42,7 +42,7 @@ a:hover .fa-brands.fa-linkedin-in{
     top: 0;
     margin-right: auto;
     bottom: 80px;
-    font-size: 40px;
+    font-size: clamp(1.8rem, 5vw, 3rem);
     color: aqua;
     background-color: black;
     text-align: center;
@@ -54,16 +54,17 @@ a:hover .fa-brands.fa-linkedin-in{
 }
 
 .image img{
-    height: 300px;
-    width: 300px;
+    height: 90%;
+    width: 17%;
     border-radius: 100%;
     border: 5px solid aqua;
     display: block;
     margin: auto;
+    animation: appear 3s linear;
 }
 
 #intro-titles-container{
-    font-size: 20px;
+    font-size: clamp(1rem, 5vw, 1.5rem);
     padding: 10px;
     border-radius: 20px;
     color: aqua;
@@ -74,7 +75,7 @@ a:hover .fa-brands.fa-linkedin-in{
 
 #education{
     color: aqua;
-    font-size: 30px;
+    font-size: clamp(1.8rem, 5vw, 3rem);
     text-align: center;
     text-shadow: 3px 5px 10px white;
 }
@@ -101,7 +102,7 @@ a:hover .fa-brands.fa-linkedin-in{
 
 .work-exp-container{
     color: aqua;
-    font-size: 30px;
+    font-size: clamp(1.8rem, 5vw, 3rem);
     text-align: center;
     text-shadow: 3px 5px 10px white;
 }
@@ -149,7 +150,7 @@ a:hover .fa-brands.fa-linkedin-in{
 }
 
 .header{
-    font-size: 30px;
+    font-size: clamp(1.8rem, 5vw, 3rem);
     color: aqua;
     text-align: center;
     text-shadow: 3px 5px 10px white;
@@ -181,7 +182,7 @@ a:hover .fa-brands.fa-linkedin-in{
 .clickable-card-reader{
     background-color: rgb(0, 0, 0);
     color: aqua;
-    font-size: 25px;
+    font-size: clamp(1rem, 5vw, 1.5rem);
     width: 500px;
     height: 200px;
 }
@@ -208,7 +209,7 @@ a:hover .fa-brands.fa-linkedin-in{
 }
 
 .technical-experience{
-    font-size: 30px;
+    font-size: clamp(1.8rem, 5vw, 3rem);
     color: aqua;
     text-align: center;
     text-shadow: 3px 5px 10px white;
@@ -222,7 +223,7 @@ a:hover .fa-brands.fa-linkedin-in{
 }
 
 .html{
-    font-size: 20px;
+    font-size: clamp(1rem, 5vw, 1.5rem);
     color: aqua;
     border: 0.1rem outset white;
     padding: 5px;
@@ -231,7 +232,7 @@ a:hover .fa-brands.fa-linkedin-in{
 }
 
 .css{
-    font-size: 20px;
+    font-size: clamp(1rem, 5vw, 1.5rem);
     color: aqua;
     border: 0.1rem outset white;
     padding: 5px;
@@ -240,7 +241,7 @@ a:hover .fa-brands.fa-linkedin-in{
 }
 
 .c-sharp{
-    font-size: 20px;
+    font-size: clamp(1rem, 5vw, 1.5rem);
     color: aqua;
     border: 0.1rem outset white;
     padding: 5px;
@@ -249,7 +250,7 @@ a:hover .fa-brands.fa-linkedin-in{
 }
 
 .rust{
-    font-size: 20px;
+    font-size: clamp(1rem, 5vw, 1.5rem);
     color: aqua;
     border: 0.1rem outset white;
     padding: 5px;
@@ -258,7 +259,7 @@ a:hover .fa-brands.fa-linkedin-in{
 }
 
 .gdscript{
-    font-size: 20px;
+    font-size: clamp(1rem, 5vw, 1.5rem);
     color: aqua;
     border: 0.1rem outset white;
     padding: 5px;
@@ -267,7 +268,7 @@ a:hover .fa-brands.fa-linkedin-in{
 }
 
 .python{
-    font-size: 20px;
+    font-size: clamp(1rem, 5vw, 1.5rem);
     color: aqua;
     border: 0.1rem outset white;
     padding: 5px;
@@ -276,7 +277,7 @@ a:hover .fa-brands.fa-linkedin-in{
 }
 
 .javascript{
-    font-size: 20px;
+    font-size: clamp(1rem, 5vw, 1.5rem);
     color: aqua;
     border: 0.1rem outset white;
     padding: 5px;
@@ -285,7 +286,7 @@ a:hover .fa-brands.fa-linkedin-in{
 }
 
 .unity{
-    font-size: 20px;
+    font-size: clamp(1rem, 5vw, 1.5rem);
     color: aqua;
     border: 0.1rem outset white;
     padding: 5px;
@@ -294,7 +295,7 @@ a:hover .fa-brands.fa-linkedin-in{
 }
 
 .git{
-    font-size: 20px;
+    font-size: clamp(1rem, 5vw, 1.5rem);
     color: aqua;
     border: 0.1rem outset white;
     padding: 5px;
@@ -303,7 +304,7 @@ a:hover .fa-brands.fa-linkedin-in{
 }
 
 .typescript{
-    font-size: 20px;
+    font-size: clamp(1rem, 5vw, 1.5rem);
     color: aqua;
     border: 0.1rem outset white;
     padding: 5px;
@@ -312,7 +313,7 @@ a:hover .fa-brands.fa-linkedin-in{
 }
 
 .react{
-    font-size: 20px;
+    font-size: clamp(1rem, 5vw, 1.5rem);
     color: aqua;
     border: 0.1rem outset white;
     padding: 5px;
@@ -321,7 +322,7 @@ a:hover .fa-brands.fa-linkedin-in{
 }
 
 .nodejs{
-    font-size: 20px;
+    font-size: clamp(1rem, 5vw, 1.5rem);
     color: aqua;
     border: 0.1rem outset white;
     padding: 5px;
@@ -330,7 +331,7 @@ a:hover .fa-brands.fa-linkedin-in{
 }
 
 #about-me{
-    font-size: 20px;
+    font-size: clamp(1rem, 5vw, 1.5rem);
     margin: auto;
     padding: 10px;
     border: 0.2rem outset black;
