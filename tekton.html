@@ -3,9 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="tekton.css">
     <title>Document</title>
 </head>
 <body>
-    
+     <div class="container">
+        <div class="breakout-project-container">
+            <h1>TeKton Project</h1>
+        </div>
+
+        <div class="video-container">
+                <video autoplay loop width="1080" height="700">
+                    <source src="tekton.mp4" type="video/mp4">
+                    This browser does not support HTML5 audio
+                </video>
+            <div class="overlay">
+                <h1>TeKton</h1>
+            </div>
+         
+        </div>
+        <div class="project-show">
+            <div class="about-container">
+                <h1>About</h1>
+                <p>Breakout originated as an internship project intended to deepen my familiarity with the Godot engine. 
+                    As development progressed, I extended the project to incorporate backend-oriented functionality aligned 
+                    with my experience as a web developer. This involved implementing structured data management using JSON, 
+                    designing and deploying a lightweight server, and establishing a communication layer between the Godot 
+                    client and the backend service. Through these additions, I was able to prototype and evaluate backend 
+                    workflows—such as request/response handling, data serialization, and state synchronization—within an 
+                    interactive game environment.
+                </p>
+            </div>
+
+            <div class="project-info-container">
+                <h1>Project Info</h1>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-user"></i>
+                        Role: Gameplay Programmer/ UI Programmer
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-people-group"></i>
+                        Team Size: 6
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-user-clock"></i>
+                        Time Frame: 24 Weeks
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-microchip"></i>
+                        Engine: Unity (C#)
+                    </li>
+                </ul>
+            </div>
+            <a href="index.html" target="_self">
+                <button class="back-btn"> Back -> </button>
+            </a>
+        </div>
+        <div class="implementations-physics-ball">
+            <h1>Core Gameplay</h1>
+            <p>The project is a breakout game with some extra implementation that I added for my internship.The bricks 
+                that can be broken need to havethe same color as the ball, which is something that I did using the 
+                modulate od the bricks and ball and define when it will break using signals.There is a 'deathzone' 
+                below that signifies when the user lost a life and when they lose3 lives the lose the game. This also 
+                happened using signals where in the main-game loop I wrote the signal code and then activated it
+                inside different scripts. The same I also did with the score using signals again. The next addition to
+                the game was a dedicated server that stored in web the players score but also the user could write his name
+                and save it as well together with the score. I did this to work both for web export but also the scores and
+                names can be stored/saved locally on the computer of the user.
+            </p>
+        </div>
+        <div class="what-i-learned">
+            <h1>What I Learned</h1>
+            <p>
+                During this project I learned a lot about different ways of communicating between scripts, that makes it more
+                simple and readable for another programmer. It was my first time trying to set up a server and connect it with 
+                the game engine to store some data and through this experience I learned a lot of important things. First, how 
+                to make an HTTP request to the server, how to make the data that you want to send into a valid format which in
+                this situation was JSON format and finally how to get it from the server, parse it and have it ready. This was
+                also the first time that I created this connection using Rust and more specifically the Arctix-Web library that
+                Rust provides. This project was something that made me realize how much enthusiasm I have for web developement 
+                (even though i created a game) for both frontend and mostly on backend work and made me push more for the dream
+                of becoming a full-stack developer. This was also one of the reasons that I got this internship because my supervisor
+                is a senior fullstack Rust developer and through  him I took a glimpse of what o fullstack web developer does.
+            </p>
+        </div>
+    </div>
 </body>
 </html>

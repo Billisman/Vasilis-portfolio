@@ -61,6 +61,34 @@
                 <button class="back-btn"> Back -> </button>
             </a>
         </div>
+        <div class="implementations-physics-ball">
+            <h1>Core Gameplay</h1>
+            <p>The project is a breakout game with some extra implementation that I added for my internship.The bricks 
+                that can be broken need to havethe same color as the ball, which is something that I did using the 
+                modulate od the bricks and ball and define when it will break using signals.There is a 'deathzone' 
+                below that signifies when the user lost a life and when they lose3 lives the lose the game. This also 
+                happened using signals where in the main-game loop I wrote the signal code and then activated it
+                inside different scripts. The same I also did with the score using signals again. The next addition to
+                the game was a dedicated server that stored in web the players score but also the user could write his name
+                and save it as well together with the score. I did this to work both for web export but also the scores and
+                names can be stored/saved locally on the computer of the user.
+            </p>
+        </div>
+        <div class="what-i-learned">
+            <h1>What I Learned</h1>
+            <p>
+                During this project I learned a lot about different ways of communicating between scripts, that makes it more
+                simple and readable for another programmer. It was my first time trying to set up a server and connect it with 
+                the game engine to store some data and through this experience I learned a lot of important things. First, how 
+                to make an HTTP request to the server, how to make the data that you want to send into a valid format which in
+                this situation was JSON format and finally how to get it from the server, parse it and have it ready. This was
+                also the first time that I created this connection using Rust and more specifically the Arctix-Web library that
+                Rust provides. This project was something that made me realize how much enthusiasm I have for web developement 
+                (even though i created a game) for both frontend and mostly on backend work and made me push more for the dream
+                of becoming a full-stack developer. This was also one of the reasons that I got this internship because my supervisor
+                is a senior fullstack Rust developer and through  him I took a glimpse of what o fullstack web developer does.
+            </p>
+        </div>
     </div>
 </body>
 </html>
